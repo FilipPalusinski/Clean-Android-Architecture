@@ -1,10 +1,12 @@
 package com.palusiniak.coroutinesandflow
 
+import androidx.compose.runtime.collectAsState
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.setValue
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
+import kotlinx.coroutines.flow.collect
 import kotlinx.coroutines.launch
 
 class MainViewModel(private val adder: NumberAdder = NumberAdder()) : ViewModel() {
@@ -14,11 +16,10 @@ class MainViewModel(private val adder: NumberAdder = NumberAdder()) : ViewModel(
 
     fun add(a: String, b: String) {
         viewModelScope.launch {
-            val result = adder.add(
-                a.toInt(),
-                b.toInt()
-            )
-            resultState = result.toString()
+            adder.add(a.toInt(), b.toInt())
+                .collect {
+                    resultState = it.toString()
+                }
         }
     }
 }
