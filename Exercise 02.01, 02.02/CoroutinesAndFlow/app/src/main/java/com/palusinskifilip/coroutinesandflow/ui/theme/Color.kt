@@ -1,4 +1,4 @@
-package com.palusiniak.coroutinesandflow.ui.theme
+package com.palusinskifilip.coroutinesandflow.ui.theme
 
 import androidx.compose.ui.graphics.Color
 

@@ -1,4 +1,4 @@
-package com.palusiniak.coroutinesandflow
+package com.palusinskifilip.coroutinesandflow
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
@@ -12,7 +12,7 @@ import androidx.compose.runtime.*
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.text.input.KeyboardType
 import androidx.compose.ui.unit.dp
-import com.palusiniak.coroutinesandflow.ui.theme.CoroutinesAndFlowTheme
+import com.palusinskifilip.coroutinesandflow.ui.theme.CoroutinesAndFlowTheme
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

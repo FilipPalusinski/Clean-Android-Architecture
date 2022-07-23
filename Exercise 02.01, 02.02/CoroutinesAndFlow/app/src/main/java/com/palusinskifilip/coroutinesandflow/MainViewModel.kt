@@ -1,6 +1,5 @@
-package com.palusiniak.coroutinesandflow
+package com.palusinskifilip.coroutinesandflow
 
-import androidx.compose.runtime.collectAsState
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.setValue

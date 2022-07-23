@@ -1,4 +1,4 @@
-package com.palusiniak.coroutinesandflow
+package com.palusinskifilip.coroutinesandflow
 
 import kotlinx.coroutines.CoroutineDispatcher
 import kotlinx.coroutines.Dispatchers
@@ -7,7 +7,6 @@ import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.flow
 import kotlinx.coroutines.flow.flowOn
 import kotlinx.coroutines.flow.onEach
-import kotlinx.coroutines.withContext
 
 private const val DELAY = 5000
 

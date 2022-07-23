@@ -1,4 +1,4 @@
-package com.palusiniak.coroutinesandflow
+package com.palusinskifilip.coroutinesandflow
 
 import junit.framework.Assert.assertEquals
 import kotlinx.coroutines.ExperimentalCoroutinesApi

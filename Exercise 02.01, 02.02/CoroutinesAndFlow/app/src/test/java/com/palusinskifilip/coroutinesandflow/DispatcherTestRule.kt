@@ -1,4 +1,4 @@
-package com.palusiniak.coroutinesandflow
+package com.palusinskifilip.coroutinesandflow
 
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.ExperimentalCoroutinesApi
